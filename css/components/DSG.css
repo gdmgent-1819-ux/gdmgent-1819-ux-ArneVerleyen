@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Serif|Raleway&display=swap');
+@import url(../components/grid.css);
+
+:root {
+    --blauwDoorzichtig: rgba(0, 191, 255, 0.5);
+    --blauw: rgba(0, 191, 255, 1);
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigatie balk*/
+.navContainer {
+    height: 57px;
+    width: 100%;
+    display: flex;
+    background-color: var(--blauwDoorzichtig);
+    justify-content: flex-end;
+    align-items: baseline;
+
+}
+
+nav ul.mainnav {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+
+
+}
+
+nav ul.mainnav li a {
+    display: inline-block;
+    padding: 20px 25px;
+    text-decoration: none;
+    color: #f1f2f6;
+    font-size: 33;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+nav ul.mainnav li.active a,
+nav ul li:hover a {
+    color: #f1f2f6;
+    background-color: #00BFFF;
+}
+
+/* pijl*/
+#pijl {
+    color: var(--blauw);
+  
+}
+/*card van kamer*/
+.kamerAfbeelding{
+    width: 493px;
+    max-height: 328.66px;
+    object-fit: cover;
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+.afbDiv{
+    background-color: var(--blauwDoorzichtig);
+    max-width: 493px;
+    
+
+}
+.kamerText h3{
+    background-color: var(--blauwDoorzichtig);
+    color: #f1f2f6;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    max-width: 493px;
+    height: 60px;
+    padding: 10px 0 10px 0;
+    font-size: 25px;
+    border: 0px;
+    margin: 0;
+}
+
+/*Teksten*/
+
+#StandaardKamer{
+    background-color: var(--blauwDoorzichtig);
+    color: #f1f2f6;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    max-width: 493px;
+    height: 60px;
+    padding: 10px 0 10px 0;
+    font-size: 25px;
+    border: 0px;
+    margin: 0;
+    background-color: #00BFFF;
+}
+.paragraaf{
+    font-family: 'PT Serif', serif;
+    font-style: italic;
+    text-align: center;
+    font-size: 20px;
+}
+.welkom{
+    text-align: center;
+    color: var(--blauw);
+    font-family: 'PT Serif', serif;
+    font-style: italic;
+    font-size: 60px;
+    padding-top: 150px;
+}
+footer{
+    margin-top: 200px;
+    background-color: var(--blauwDoorzichtig);
+    padding: 0;
+}
+
+footer ul{
+    list-style: none;
+    padding-bottom: 40px;
+    
+}
+footer ul li{
+    color: #f1f2f6;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    padding: 10px;
+    text-decoration: none;
+}
+footer ul li a{
+    color: #f1f2f6;
+    
+    font-family: 'Raleway', sans-serif;
+    padding: 10px;
+    text-decoration: none;
+}
+footer ul li a i{
+    padding-right: 5px;
+}
+
+.containerReserveren{
+    display: flex;
+    justify-content: space-around;
+    max-width: 1042px;
+    padding: 10px;
+    border: #00BFFF 1px solid;
+    margin-top: 100px;
+}
+.divReserveren{
+    border: #00BFFF 1px solid;
+    display: flex;
+    color: #00BFFF;
+    padding: 20px 10px 20px 10px;
+    font-family:  'Raleway', sans-serif;
+
+}
+
+.divReserveren i{
+    color: #00BFFF;
+    padding: 0 0 0 10px;
+}
